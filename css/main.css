@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+ *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: #1a1a1a;
+    color: white;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-size: cover;
+    padding: 1.5em;
+     margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+    header.logo{
+        
+        font-family: Caveat;
+        font-weight: 700;
+        font-size: x-large;
+    }
+    header ul {
+        display: flex ;
+    
+        }
+    header li a{
+        padding: 0 .6em;
+    }
+.content{
+    margin: 8em 6em 4em;
+    font-weight: 900;
+    text-align: center;
+
+    }
+.popular{
+    padding: 4em;
+
+    
+    }
+    .popular ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+        max-width: 1200px;
+        
+       
+    }
+    .popular li{
+        background: white;
+        padding:0 0 2.5em;
+        margin-bottom: 1em;
+        margin:1em;
+        height: 200px;  
+        width: 180px ;
+    }
+    .popular li p{
+        margin: 0em;
+        color: gray;
+        font-size: x-small;
+        padding: 0 9.6px 0;
+    }
+    .popular li h6{
+        margin:0em ;
+        color:red;
+        padding: 0 9.4px 0;
+
+    }
+    .popular li h3{
+        margin: 0;
+        color:black;
+        padding: 5px 9.4px ;
+    }
+    .popular li img{
+        margin: 0;
+        padding:0;
+    }
+    
+    
+    .this_week{
+        padding: 4em;
+        
+        }
+        .this_week ul{
+            display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+            margin: 0;
+            padding: 0;
+        }
+        .this_week li{
+            background: white;
+            padding:0 0 2.5em;
+            margin-bottom: 1em;
+            max-width:400 px;
+            margin:1em;
+            height: 200px;  
+            width: 180px ;
+                
+        }
+        .this_week li p{
+            margin: 0em;
+            color: gray;
+            font-size: x-small;
+            padding: 0 9.6px 0;
+        }
+        .this_week li h6{
+            margin:0em ;
+            color:red;
+            padding: 0 9.4px 0;
+    
+        }
+        .this_week li h3{
+            margin: 0;
+            color:black;
+            padding: 5px 9.4px ;
+        }
+        .this_week li img{
+            margin: 0;
+            padding:0;
+        }
+     .groups{
+            padding: 4em;
+        }
+        .groups ul{
+            display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+            margin: 0;
+            padding: 0;
+        }
+        .groups li{
+            background: white;
+            padding:0 0 2.5em;
+            margin-bottom: 1em;
+            max-width:400 px;
+            margin:1em;
+            height: 250px;  
+            width: 160px ;
+            text-align: center;
+        }
+        .groups li p{
+            margin: 0em;
+            color: gray;
+            font-size: x-small;
+            padding: 1em 9.6px 3em ;
+           
+           
+        }
+        
+        .groups li h3{
+            margin: 0;
+            color:black;
+            padding: 5px 9.4px ;
+        }
+        .groups li img{
+            margin-top: 0.7em ;
+            border-radius: 50%;
+            
+        }
+        .groups li a{
+            color:red;
+            
+           
+            
+        }
+        hr{
+            margin-top: 10em;
+            margin-bottom: 0;
+            
+        }
+        
+        footer{
+            text-align:center;
+            padding: 2em;
+            
+            
+           
+            
+        }
+        footer h3{
+            font-size: large;
+            
+        }
+        
+        .cate{
+            margin-bottom: 3em;
+            
+        }
+        .com{
+            margin-bottom: 3em;
+            padding: 0 4em;
+        }
+        footer li{
+            margin-bottom: 1em;
+            
+            
+        }
+        @media (min-width: 390px){
+            footer{
+                display: flex;
+            justify-content: center;
+           
+            }
+
+        }
+        @media (min-width: 1050px)
+        {
+            .popular ul{
+                display: flex;
+                justify-content: start  ;
+            }
+            .this_week ul{
+                display: flex;
+                justify-content:start  ;
+            }
+        }
