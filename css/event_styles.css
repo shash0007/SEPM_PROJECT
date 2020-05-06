@@ -1,0 +1,199 @@
+* {
+	padding: 5px;
+}
+#body1 {
+	color: #f1f1f1;
+	background-image: linear-gradient(to right, #FFFFFF, #FF0000)
+}
+#a1 {
+	margin-left: 1280px;
+}
+#a2 {
+	margin-left: 10px;
+}
+#a1:hover {
+	color: #B0FE36;
+}
+#a2:hover {
+	color: #B0FE36;
+}
+#a-main:hover {
+	color: #B0FE36;
+}
+#img-container {
+	padding-top: 20px;
+}
+#cart_button {
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#buy_button {
+	width: 100%;
+}
+#contact1 {
+	width: 100%;
+	margin-bottom: 5px;
+}
+#contact2 {
+	width: 100%;
+	margin-bottom: 5px;
+}
+#contact3 {
+	width: 100%;
+	margin-bottom: 5px;
+}
+#events_footer {
+	margin-top: 50px;
+	color: #f1f1f1;
+}
+#events_footer:hover {
+	background-color: #222123;
+	transition: 0.5s;
+}
+#uli1 {
+	text-align: center;
+}
+#uli2 {
+	text-align: center;
+}
+#uli3 {
+	text-align: center;
+}
+#afooter1:link {
+	color: #5B75F9;
+}
+#afooter2:link {
+	color: #5B75F9;
+}
+#afooter3:link {
+	color: #5B75F9;
+}
+#afooter4:link {
+	color: #5B75F9;
+}
+#afooter5:link {
+	color: #5B75F9;
+}
+#afooter6:link {
+	color: #5B75F9;
+}
+#afooter7:link {
+	color: #5B75F9;
+}
+#afooter8:link {
+	color: #5B75F9;
+}
+#afooter9:link {
+	color: #5B75F9;
+}
+#afooter10:link {
+	color: #5B75F9;
+}
+#afooter11:link {
+	color: #5B75F9;
+}
+#afooter12:link {
+	color: #5B75F9;
+}
+#afooter13:link {
+	color: #5B75F9;
+}
+#afooter14:link {
+	color: #5B75F9;
+}
+
+
+#afooter1:visited {
+	color: #7631B4;
+}
+#afooter2:visited {
+	color: #7631B4;
+}
+#afooter3:visited {
+	color: #7631B4;
+}
+#afooter4:visited {
+	color: #7631B4;
+}
+#afooter5:visited {
+	color: #7631B4;
+}
+#afooter6:visited {
+	color: #7631B4;
+}
+#afooter7:visited {
+	color: #7631B4;
+}
+#afooter8:visited {
+	color: #7631B4;
+}
+#afooter9:visited {
+	color: #7631B4;
+}
+#afooter10:visited {
+	color: #7631B4;
+}
+#afooter11:visited {
+	color: #7631B4;
+}
+#afooter12:visited {
+	color: #7631B4;
+}
+#afooter13:visited {
+	color: #7631B4;
+}
+#afooter14:visited {
+	color: #7631B4;
+}
+#afooter1:hover {
+	color: #B0FE36;
+}
+#afooter2:hover {
+	color: #B0FE36;
+}
+#afooter3:hover {
+	color: #B0FE36;
+}
+#afooter4:hover {
+	color: #B0FE36;
+}
+#afooter5:hover {
+	color: #B0FE36;
+}
+#afooter6:hover {
+	color: #B0FE36;
+}
+#afooter7:hover {
+	color: #B0FE36;
+}
+#afooter8:hover {
+	color: #B0FE36;
+}
+#afooter9:hover {
+	color: #B0FE36;
+}
+#afooter10:hover {
+	color: #B0FE36;
+}
+#afooter11:hover {
+	color: #B0FE36;
+}
+#afooter12:hover {
+	color: #B0FE36;
+}
+#afooter13:hover {
+	color: #B0FE36;
+}
+#afooter14:hover {
+	color: #B0FE36;
+}
+#hfooter1 {
+	text-align: center;
+}
+#hfooter2 {
+	text-align: center;
+}
+#hfooter3 {
+	text-align: center;
+}
