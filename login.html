@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/login.css">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=aq4BNrM7Sns62s15qFXfLUSwEQL31tOgNsDlpEf94XEhM-mrgCOpM5bm9oPwby3vWgaTrj-mguMHJNOFvPPlxfRRjfvUU18N0l-qkgw2RNVky6vmTCq9t4bzEce-wOYT7WTSYWM6vPzUz4FYNJDuEeoO3_agHeqK8OiRE_JPJ7upaaV53hLfiaHaExD8DtKp-HreuNN9lnpJDsFQLWmfX7RnN3QE_Mw5wdiX8_Np5zRMBbxKpaXhtYJOTop0O_KrAfECUfkG1LPeHCJ7qmKRoVlxqApYA7evH5taVFh8Ro2PA_kW2iLAvw7JHTHJQTqqMkZYFc-Kr4EAkYm2b3bQ8sZRquJeEhowOUfJuUTX19dVcEZfSPR-eAol3g8kmhNztVwq2ctA7UAfo--0TLTxuHXhY9b7-zfyf1rph1Zzlz7RBi4NiQl3WgceHfFfnUjdqOTriVBxFhSYcwbuR7-r6x_H4zGIREvze7WKrF009cExeXHYOteNWAZrri7H-5VVhHUakcLHDs0iOO73yNSg8Gcex7EKdND0HkqssM0BQtGr38HZH0RY0Q-ud68UVa0aVisMEJdJho07MQgb1Jg2gTRsKRuDbxPkmYyvdes_DWrZzSCYyMxofOrQbnpYUCTxUIxfg0E_pYzmYUa79PKWXQaw5km_YXCLhtXDlQlMCHlcWOLd3UcG5RG-Ij_8uxG-kKXuNcJCPQ3EfkogBGBxF70DdGTYUX5Qvfqp-ffjarIr8LhAzRkPXWH13a8tpbp4AHzEclVbM5HQak8q5cyUZzbQbdLV96yW1qIrADiBzahB55DBvphBHNwm4lT6qzTMAj2pqvAlGAX84DasA_eKy7Sh_96FG7rqQ9VX4HGGbuo0w0ztUulYs8plfUGa6XClNbbEVwd4qZw_fNsIBkwv2pP4Ln0j-i36DUpqcMemKbdxMvZu2eshH_TSsdAR0KGS12Pg9tsaIzw9-uOMNM4eTwkY3wLageC6C8NwN1w_ImxU5cg4NxjGC3TbtpA_g1OAZ5za9c8eptQnZRWbsndnsALEAREeUiEXJ0PFZWG61koBH_o0HBHtxAdd8dxJ18OxSEMSwvd0IZLBQJTAiLGxnKml_ThvHtTLx7w3DQp3hNnaD0M8Lcg_z-7kDvu-KuRFIyZ2zaTFC-vzd4y_aUfP4b-FuOX88ZXKac_9TmZYoe9Zef9aizUL6gnIpL7VAC9_R7PWA8sj3v738W46ojJbMw" nonce="4eb6f2a89b896f0efaadc779a43ba2d6" charset="UTF-8"></script></head>
+<body>
+  <div class="hero">
+    <div class="formbox">
+      <div class="buttonbox">
+        <div id="btn"></div> 
+        <button type="button" class="togglebtn" onclick="Login()">Login</button>
+        <button type="button" class="togglebtn" onclick="Signup()">Signup</button>
+      </div>
+      <div class="socialicons">
+        <img src="https://image.flaticon.com/icons/svg/124/124010.svg" alt="">
+        <img src="https://image.flaticon.com/icons/svg/2702/2702602.svg" alt="">
+      </div>
+      <form id="Login" class="inputgroup">
+        <input type="text" class="inputfield" placeholder="User Id" required>
+        <input type="text" class="inputfield" placeholder="Password" required>
+        <input type="checkbox" class="checkbox"><span>Forget Password</span>
+        <button type="submit" class="submitbtn">Login</button>
+      </form>
+      <form id="Signup" class="inputgroup">
+        <input type="text" class="inputfield" placeholder="User Id" required>
+        <input type="email" class="inputfield" placeholder="Email Id" required>
+        <input type="text" class="inputfield" placeholder="Password" required>
+        <input type="checkbox" class="checkbox"><span>I agree to the terms & conditions</span>
+        <button type="submit" class="submitbtn">Signup</button>
+      </form>
+    </div>
+    
+  </div>
+  <script>
+    var x = document.getElementById("Login");
+    var y = document.getElementById("Signup");
+    var z = document.getElementById("btn");
+    
+    function Signup(){
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+      }
+
+      function Login(){
+      x.style.left = "50px";
+      y.style.left = "450px";
+      z.style.left = "0px";
+      }
+  </script>
+</body>
+</html>
